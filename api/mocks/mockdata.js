@@ -32,6 +32,7 @@ const mockCards = [
     balance: 0,
     isActive: true,
     accountId: 1,
+    bankId: 1,
   },
   {
     id: 2,
@@ -40,6 +41,7 @@ const mockCards = [
     balance: 500,
     isActive: true,
     accountId: 2,
+    bankId: 1,
   },
   {
     id: 3,
@@ -48,6 +50,7 @@ const mockCards = [
     balance: 0,
     isActive: true,
     accountId: 3,
+    bankId: 1,
   },
   {
     id: 4,
@@ -56,6 +59,7 @@ const mockCards = [
     balance: 200,
     isActive: true,
     accountId: 4,
+    bankId: 1,
   },
   {
     id: 5,
@@ -64,6 +68,7 @@ const mockCards = [
     balance: 0,
     isActive: true,
     accountId: 5,
+    bankId: 1,
   },
   {
     id: 6,
@@ -72,6 +77,7 @@ const mockCards = [
     balance: 300,
     isActive: true,
     accountId: 6,
+    bankId: 1,
   },
   {
     id: 7,
@@ -80,6 +86,7 @@ const mockCards = [
     balance: 0,
     isActive: true,
     accountId: 7,
+    bankId: 1,
   },
   {
     id: 8,
@@ -88,6 +95,7 @@ const mockCards = [
     balance: 400,
     isActive: true,
     accountId: 8,
+    bankId: 1,
   },
   {
     id: 9,
@@ -96,6 +104,7 @@ const mockCards = [
     balance: 0,
     isActive: true,
     accountId: 9,
+    bankId: 1,
   },
   {
     id: 10,
@@ -104,6 +113,7 @@ const mockCards = [
     balance: 600,
     isActive: true,
     accountId: 10,
+    bankId: 1,
   },
   {
     id: 11,
@@ -112,6 +122,7 @@ const mockCards = [
     balance: 600,
     isActive: false,
     accountId: 10,
+    bankId: 1,
   },
 ];
 

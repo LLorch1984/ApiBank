@@ -5,9 +5,13 @@ const {
 } = require("../mocks/mockdata");
 
 exports.withdraw = (req, res) => {
-  const { cardId, amount } = req.body;
+  const { cardId, amount, bankId } = req.body;
   const card = mockCards.find((card) => card.id === parseInt(cardId));
   const account = mockAccounts.find((account) => account.id === card.accountId);
+
+  if (card.bankId != bankId) {
+    return res.status(400).json({ error: "That card is not from our bank" });
+  }
 
   if (!card.isActive) {
     return res.status(400).json({ error: "Card is not active" });
