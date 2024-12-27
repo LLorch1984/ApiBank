@@ -12,16 +12,76 @@ const mockUsers = [
 ];
 
 const mockAccounts = [
-  { id: 1, balance: 1000, userId: 1 },
-  { id: 2, balance: 2000, userId: 2 },
-  { id: 3, balance: 1500, userId: 3 },
-  { id: 4, balance: 500, userId: 4 },
-  { id: 5, balance: 3000, userId: 5 },
-  { id: 6, balance: 2500, userId: 6 },
-  { id: 7, balance: 4000, userId: 7 },
-  { id: 8, balance: 3500, userId: 8 },
-  { id: 9, balance: 4500, userId: 9 },
-  { id: 10, balance: 5000, userId: 10 },
+  {
+    id: 1,
+    balance: 1000,
+    userId: 1,
+    bankId: 1,
+    iban: "ES9121000418450200051332",
+  },
+  {
+    id: 2,
+    balance: 2000,
+    userId: 2,
+    bankId: 2,
+    iban: "ES9121000418450200051333",
+  },
+  {
+    id: 3,
+    balance: 1500,
+    userId: 3,
+    bankId: 2,
+    iban: "ES9121000418450200051334",
+  },
+  {
+    id: 4,
+    balance: 500,
+    userId: 4,
+    bankId: 1,
+    iban: "ES9121000418450200051335",
+  },
+  {
+    id: 5,
+    balance: 3000,
+    userId: 5,
+    bankId: 2,
+    iban: "ES9121000418450200051336",
+  },
+  {
+    id: 6,
+    balance: 2500,
+    userId: 6,
+    bankId: 1,
+    iban: "ES9121000418450200051337",
+  },
+  {
+    id: 7,
+    balance: 4000,
+    userId: 7,
+    bankId: 3,
+    iban: "ES9121000418450200051338",
+  },
+  {
+    id: 8,
+    balance: 3500,
+    userId: 8,
+    bankId: 2,
+    iban: "ES8700758634118821627661",
+  },
+  {
+    id: 9,
+    balance: 4500,
+    userId: 9,
+    bankId: 3,
+    iban: "ES9121000418450200051340",
+  },
+  {
+    id: 10,
+    balance: 5000,
+    userId: 10,
+    bankId: 3,
+    iban: "ES9121000418450200051341",
+  },
 ];
 
 const mockCards = [
