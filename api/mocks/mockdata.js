@@ -105,6 +105,14 @@ const mockCards = [
     isActive: true,
     accountId: 10,
   },
+  {
+    id: 11,
+    type: "credit",
+    limit: 5000,
+    balance: 600,
+    isActive: false,
+    accountId: 10,
+  },
 ];
 
 const mockTransactions = [
